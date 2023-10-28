@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3{
+    color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal-headers {
+    color: #333;
+    text-align: left;
+}
+
+/* Modal Container */
+.modal-container {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Form Styles */
+.url-form {
+    background: #fff;
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="datetime-local"]:focus {
+    border-color: #007bff;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Shortened URL Display */
+.url-container {
+    background: #fff;
+    text-align: left; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* All Shortened URLs List */
+.all-links {
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.links {
+    background: #fff;
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Buttons */
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-container {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.messages {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
